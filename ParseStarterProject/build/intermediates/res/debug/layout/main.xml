@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:onClick="buttonOnclick">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"
+        android:id="@+id/Text1"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/Text2"
+        android:isScrollContainer="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button1"
+        android:id="@+id/button1"
+        android:onClick="buttonOnclick" />
+
+</LinearLayout><!-- From: file:/C:/Users/jainam/Desktop/Parseproject/Parse%20Project/ParseStarterProject/res/layout/main.xml -->
